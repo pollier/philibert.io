@@ -1,0 +1,11 @@
+/* .md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+  border-left-width: 4px;
+} */
+.md-grid {
+  max-width: initial;
+}
+/* .md-typeset .grid {
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr))
+} */

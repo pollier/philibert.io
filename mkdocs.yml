@@ -1,0 +1,51 @@
+site_name: Philibert OLLIER
+site_url: https://philibert.io
+theme:
+  features:
+    - navigation.instant
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+
+  name: material
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+plugins:
+  - print-site:
+      add_to_navigation: false
+      print_page_title: "Print Site"
+      add_print_site_banner: false
+      add_table_of_contents: false
+      add_full_urls: false
+      enumerate_headings: false
+      enumerate_figures: false
+      add_cover_page: false
+      cover_page_template: ""
+      path_to_pdf: ""
+      include_css: true
+      enabled: true
+extra_css:
+  - stylesheets/extra.css
+extra:
+  generator: false
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
