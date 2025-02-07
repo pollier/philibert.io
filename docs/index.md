@@ -5,7 +5,9 @@
 
     Passionate and always on the hunt for new technologies,
     I strive to anticipate tomorrow's problems and find **simple** solutions to them.
+
 ---
+
 <div class="grid cards" markdown>
 
 !!! note "Education"
@@ -40,6 +42,7 @@
     - Scuba Diving
 
 </div>
+
 ---
 
 ## Tech Skills & Tools
@@ -118,7 +121,6 @@
 
 ## Work Experiences
 
-<!-- <div class="grid cards" markdown> -->
 
 !!! info "*December 2021 – May 2024*"
 
@@ -140,7 +142,7 @@
 
     </div>
 
-<!-- <div class="grid cards" markdown> -->
+---
 
 !!! info "*February 2023 – July 2023*"
 
@@ -169,7 +171,7 @@
 
     </div>
 
-<!-- <div class="grid cards" markdown> -->
+---
 
 !!! info "*January 2020 – October 2023*"
 
@@ -210,7 +212,8 @@
 
     </div>
 
-<!-- <div class="grid cards" markdown> -->
+---
+
 !!! info "*March 2019 – September 2021*"
 
     ### Boston Consulting Group | Cloud Architect
@@ -238,7 +241,7 @@
 
     </div>
 
-    ---
+---
 
 !!! info "*March 2017 – September 2024*"
 
@@ -262,8 +265,7 @@
 
     </div>
 
-    ---
-
+---
 
 !!! info "*April 2018 – December 2018*"
 
@@ -279,7 +281,7 @@
 
     **Tech Stack:** AWS, OpenStack, Kubernetes, Terraform, Elastic Stack, Ansible
 
-    ---
+---
 
 !!! info "*June 2016 – December 2016*"
 
@@ -293,4 +295,3 @@
     - Set up CI/CD pipelines with Jenkins and Ansible.
 
     **Tech Stack:** AWS, Jenkins, Ansible, Terraform
-<!-- </div> -->
