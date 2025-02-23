@@ -1,7 +1,10 @@
 
 ## About me
+
+
 philibert.ollier@gmail.com
-+33 6 51 82 05 61 (WhatsApp, SMS, Call)
+
++33 6 51 82 05 61(WhatsApp, SMS, Call)
 
 
 !!! quote "Personal Statement"
