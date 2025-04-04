@@ -22,6 +22,10 @@
       content: unset;
     }
   }
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
   h2 {
     break-before: allow;
     break-after: avoid;
