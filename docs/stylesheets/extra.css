@@ -26,8 +26,12 @@
   .page {
     break-after: always;
   }
+  body {
+    background-color: white;
+  }
   html {
     -webkit-print-color-adjust: exact;
+    background-color: white;
     print-color-adjust: exact;
   }
   h2 {
