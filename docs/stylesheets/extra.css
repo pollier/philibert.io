@@ -6,6 +6,31 @@
 .md-grid {
   max-width: initial;
 }
+
+@media print {
+
+  @page {
+    /* margin: 0mm 0mm 0mm 0mm;
+      size: 21cm 29.7cm; */
+    size: A4 portrait;
+
+    @bottom-right {
+      content: unset;
+    }
+
+    @bottom-center {
+      content: unset;
+    }
+  }
+  h2 {
+    break-before: allow;
+    break-after: avoid;
+  }
+  hr {
+    visibility: hidden;
+  }
+}
+
 /* .md-typeset .grid {
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr))
 } */

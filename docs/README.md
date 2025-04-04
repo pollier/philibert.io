@@ -4,6 +4,8 @@ philibert.ollier@gmail.com
 
 +33 6 51 82 05 61 (WhatsApp, SMS, Call)
 
+[PDF Version](/Philibert_OLLIER.pdf)
+
 !!! quote ""
 
     Cloud architect with extensive experience building scalable, data-driven platforms that bridge physical infrastructure with cloud technologies.

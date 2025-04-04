@@ -2,8 +2,6 @@ site_name: Philibert OLLIER
 site_url: https://philibert.io
 theme:
   features:
-    # - navigation.instant
-    # - navigation.indexes
     - toc.follow
     - toc.integrate
     - navigation.top
@@ -22,10 +20,8 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
 plugins:
-  # - privacy
   - print-site:
       add_to_navigation: false
-      print_page_title: "Print Site"
       add_print_site_banner: false
       add_table_of_contents: false
       add_full_urls: false
