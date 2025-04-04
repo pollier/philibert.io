@@ -42,7 +42,7 @@ jobs:
 
       - name: Make PDF
         run: |
-          ${{ steps.setup-chrome.outputs.chrome-path }} --disable-setuid-sandbox --headless --disable-gpu --no-margins --print-to-pdf=site/Philibert_OLLIER.pdf --disable-pdf-tagging --run-all-compositor-stages-before-draw --no-pdf-header-footer site/print_page/index.html
+          ${{ steps.setup-chrome.outputs.chrome-path }} --no-sandbox --headless --disable-gpu --no-margins --print-to-pdf=site/Philibert_OLLIER.pdf --disable-pdf-tagging --run-all-compositor-stages-before-draw --no-pdf-header-footer site/print_page/index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
