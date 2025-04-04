@@ -8,13 +8,13 @@
 }
 
 @media print {
-
   @page {
     /* margin: 0mm 0mm 0mm 0mm;
       size: 21cm 29.7cm; */
     size: A4 portrait;
-    margin: 0;
+    margin: 5mm 5mm 5mm 5mm;
     padding: 0;
+
     @bottom-right {
       content: unset;
     }
