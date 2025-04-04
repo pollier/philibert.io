@@ -1,11 +1,49 @@
-/* .md-typeset .admonition,
-.md-typeset details {
-  border-width: 0;
-  border-left-width: 4px;
-} */
+
 .md-grid {
   max-width: initial;
 }
+.md-icon svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media print {
+  @page {
+    /* margin: 0mm 0mm 0mm 0mm;
+      size: 21cm 29.7cm; */
+    size: A4 portrait;
+    margin: 5mm 5mm 5mm 5mm;
+    padding: 0;
+    background-color: white;
+
+    @bottom-right {
+      content: unset;
+    }
+
+    @bottom-center {
+      content: unset;
+    }
+  }
+  .page {
+    break-after: always;
+  }
+  body {
+    background-color: white;
+  }
+  html {
+    -webkit-print-color-adjust: exact;
+    background-color: white;
+    print-color-adjust: exact;
+  }
+  h2 {
+    break-before: allow;
+    break-after: avoid;
+  }
+  hr {
+    visibility: hidden;
+  }
+}
+
 /* .md-typeset .grid {
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr))
 } */

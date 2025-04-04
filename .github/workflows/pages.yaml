@@ -19,8 +19,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install curl build-essential -y
+
       - name: Install uv
         uses: astral-sh/setup-uv@v5
+
+      - uses: browser-actions/setup-chrome@v1
+        id: setup-chrome
+        with:
+          install-dependencies: true
 
       - name: Setup Pages
         id: pages
@@ -28,12 +37,13 @@ jobs:
 
       - name: Build
         run: |
-          uv venv
-          uv pip install -r pyproject.toml
-          source .venv/bin/activate
-          nodeenv -p
-          npm install puppeteer
-          mkdocs build
+          uv sync
+          sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev pngquant libz-dev -y
+          uv run mkdocs build
+
+      - name: Make PDF
+        run: |
+          ${{ steps.setup-chrome.outputs.chrome-path }} --no-sandbox --headless --disable-gpu --no-margins --print-to-pdf=site/Philibert_OLLIER.pdf --disable-pdf-tagging --run-all-compositor-stages-before-draw --no-pdf-header-footer site/print_page/index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

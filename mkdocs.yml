@@ -1,13 +1,16 @@
 site_name: Philibert OLLIER
 site_url: https://philibert.io
+site_description: "Cloud Architect & DevOps Engineer"
 theme:
   features:
-    # - navigation.instant
-    # - navigation.indexes
     - toc.follow
     - toc.integrate
     - navigation.top
   name: material
+  icon:
+    logo: material/cloud-braces
+  custom_dir: docs/overrides
+
   palette:
     - scheme: slate
       primary: indigo
@@ -22,18 +25,18 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
 plugins:
-  # - privacy
+  - social
   - print-site:
       add_to_navigation: false
-      print_page_title: "Print Site"
       add_print_site_banner: false
       add_table_of_contents: false
+      print_page_title: "Philibert OLLIER"
+      path_to_pdf: "/Philibert_OLLIER.pdf"
       add_full_urls: false
       enumerate_headings: false
       enumerate_figures: false
       add_cover_page: false
       cover_page_template: ""
-      path_to_pdf: ""
       include_css: true
       enabled: true
 extra_css:
