@@ -11,13 +11,16 @@
 
 <div class="grid cards" markdown>
 
-!!! question "Contact"
-    - **[philibert.ollier@gmail.com](mailto:philibert.ollier@gmail.com)**
-    - **[+33 6 51 82 05 61](tel:+33612345678)**
-        - [WhatsApp](https://wa.me/33651820561)
-        - [SMS](sms:+33612345678)
-        - [Call](tel:+33612345678)
-    - [https://philibert.io](https://philibert.io)
+!!! question "Contact Me"
+    - :material-gmail: **[philibert.ollier@gmail.com](mailto:philibert.ollier@gmail.com)**
+    - :material-card-account-details: Phone : **[+33 6 51 82 05 61](tel:+33612345678)**
+        - :material-whatsapp: [WhatsApp](https://wa.me/33651820561)
+        - :material-message-text: [SMS](sms:+33612345678)
+        - :material-phone: [Call](tel:+33612345678)
+
+
+    - :material-web: [https://philibert.io](https://philibert.io)
+    - :material-linkedin: [LinkedIn](https://www.linkedin.com/in/philibert-ollier/)
 
 !!! note "Education"
     - **École 42** : 2014 / 2016
