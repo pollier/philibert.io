@@ -12,11 +12,12 @@
 <div class="grid cards" markdown>
 
 !!! question "Contact"
-    - [philibert.ollier@gmail.com](mailto:philibert.ollier@gmail.com)
-    - [+33 6 51 82 05 61](tel:+33612345678)
+    - **[philibert.ollier@gmail.com](mailto:philibert.ollier@gmail.com)**
+    - **[+33 6 51 82 05 61](tel:+33612345678)**
         - [WhatsApp](https://wa.me/33651820561)
         - [SMS](sms:+33612345678)
         - [Call](tel:+33612345678)
+    - [https://philibert.io](https://philibert.io)
 
 !!! note "Education"
     - **École 42** : 2014 / 2016
