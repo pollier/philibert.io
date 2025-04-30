@@ -193,7 +193,7 @@
 ## Work Experiences
 
 
-!!! info "*February 2024 – Present*"
+!!! info "*July 2024 – March 2025*"
 
     ### Madic Group | Cloud Architect
 
